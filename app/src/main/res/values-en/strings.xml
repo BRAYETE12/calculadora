@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">clase_01_es</string>
-    <string name="btnCalcular">Calculate</string>
+    <string name="btnCalcular">Add</string>
     <string name="titulo">CALCULATOR</string>
-    <string name="numero1">Enter Number 1</string>
-    <string name="numero2">Enter Number 2</string>
+    <string name="numero1">Enter a number 1</string>
+    <string name="error_numero">" Please enter a number"</string>
+    <string name="numero2">" Enter a number 2"</string>
+    <string name="limpiarText">clean</string>
 </resources>

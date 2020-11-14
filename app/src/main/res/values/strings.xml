@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Calculadora U</string>
+    <string name="app_name">CALCULADORA</string>
     <string name="titulo">CALCULADORA</string>
-    <string name="btnCalcular">CALCULAR</string>
+    <string name="btnCalcular">Sumar</string>
     <string name="numero1">Ingrese Número 1</string>
     <string name="numero2">Ingrese Número 2</string>
+    <string name="error_numero">Ingrese un número</string>
+    <string name="limpiarText">limpiar</string>
 </resources>

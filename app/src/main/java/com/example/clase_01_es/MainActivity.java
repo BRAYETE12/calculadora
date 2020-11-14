@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calcular(View v){
 
-        if( this.num1.getText().toString() != null  && this.num2.getText().toString() != null  ){
+        if( validar()  ){
 
             double  n1, n2, rt;
 
@@ -32,6 +32,30 @@ public class MainActivity extends AppCompatActivity {
             this.result.setText( rt+"" );
         }
 
+    }
+
+    public void limpiar(View v){
+        this.num1.setText( "" );
+        this.num2.setText( "" );
+        this.result.setText( "" );
+        this.num1.requestFocus();
+    }
+
+    public boolean validar(){
+
+        if(this.num1.getText().toString().isEmpty()){
+            this.num1.setError( getString(R.string.error_numero) );
+            this.num1.requestFocus();
+            return false;
+        }
+
+        if(this.num2.getText().toString().isEmpty()){
+            this.num2.setError(getString(R.string.error_numero));
+            this.num2.requestFocus();
+            return false;
+        }
+
+        return true;
     }
 
 }
