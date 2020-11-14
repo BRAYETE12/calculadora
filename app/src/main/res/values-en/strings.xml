@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">clase_01_es</string>
+    <string name="btnCalcular">Calculate</string>
+    <string name="titulo">CALCULATOR</string>
+    <string name="numero1">Enter Number 1</string>
+    <string name="numero2">Enter Number 2</string>
+</resources>
