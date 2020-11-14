@@ -16,7 +16,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/numero1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -24,7 +24,7 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/numero2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -35,10 +35,11 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="calcular"
         android:text="@string/btnCalcular" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
